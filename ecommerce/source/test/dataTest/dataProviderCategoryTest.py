@@ -9,4 +9,5 @@ category.setName("bilgisayar")
 category.setDescription("computer Description")
 
 #dataProviderCategory.insert(category)
-dataProviderCategory.getList()
+#dataProviderCategory.getList()
+dataProviderCategory.getById(2)

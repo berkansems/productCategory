@@ -28,6 +28,23 @@ class DataProviderCategory:
                 connection.close()
                 print("Mysql connection is closed")
 
+    def getById(self,Id):
+        connection=mysql.connector.connect(
+            host="localhost",
+            database="eco",
+            user="root",
+            password="750486"
+        )
+        query = "select*from category"
+        cursor=connection.cursor()
+        cursor.execute(query)
+        results=cursor.fetchall()
+        for row in results:
+            if row[0]==Id:
+                print("the id is      :{0}".format(row[0]))
+                print("the Name is    :{0}".format(row[1]))
+                print("the Description:{0}".format(row[2]))
+
     def getList(self):
         try:
             connection = mysql.connector.connect(
