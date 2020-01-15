@@ -1,60 +1,111 @@
 import mysql.connector
 
+from source.data import connectionString
+from source.data.connectionString import ConnectionString
+
 
 class DataProviderCategory:
-
+    connection=None
     def insert(self, category):
         try:
-            connection = mysql.connector.connect(
-                host="localhost",
-                database="eco",
-                user="root",
-                password="750486")
-
-            query = "INSERT INTO category (Id,Name,Description) VALUES ('{0}','{1}','{2}')" \
-                .format(category.getId(),category.getName(), category.getDescription())
-
-            cursor = connection.cursor()
+            self.connection=ConnectionString.connectionStringEco()
+            query="INSERT INTO category(Name,Description) VALUES ('{0}','{1}')".format(category.getName(),category.getDescription())
+            cursor=self.connection.cursor()
             cursor.execute(query)
-            connection.commit()
-            print(cursor.rowcount, "record inserted successfully")
+            self.connection.commit()
+            print(cursor.rowcount,"row inserted successfully")
             cursor.close()
         except mysql.connector.Error as mysqlError:
             print(mysqlError.msg)
-        except Exception as ex: # bunu anlatabilirmisiniz?
-            print(ex)
+        except Exception as ss:
+            print(ss)
         finally:
-            if connection.is_connected():
-                connection.close()
-                print("Mysql connection is closed")
+            if self.connection.is_connected():
+                self.connection.close()
+                print("connection is closed")
+
+
 
     def getList(self):
+        global connection
         try:
-            connection = mysql.connector.connect(
-                host="localhost",
-                database="eco",
-                user="root",
-                password="750486")
-
-            query = "SELECT * FROM category"
-            cursor = connection.cursor()
+            self.connection=ConnectionString.connectionStringEco()
+            query="select * from category"
+            cursor=self.connection.cursor()
             cursor.execute(query)
-            records = cursor.fetchall()
-            print("Total Category Number : {0}".format(cursor.rowcount))
+            result= cursor.fetchall()
+            print("total imported rows are :{0}".format(cursor.rowcount))
+            print("-----------------------")
+            for row in result:
+                print("Id           :{0}".format(row[0]))
+                print("Name         :{0}".format(row[1]))
+                print("Description  :{0}".format(row[2]))
             cursor.close()
-            for row in records:
-                print("Id          : {0}".format(row[0]))
-                print("Name        : {0}".format(row[1]))
-                print("Description : {0}".format(row[2]))
-                print("************************")
-
         except mysql.connector.Error as mysqlError:
             print(mysqlError.msg)
-
-        except Exception as jjj:
-            print(jjj)
-
+        except Exception as kk:
+            print(kk)
         finally:
-            if connection.is_connected():
-                connection.close()
-                print("Mysql connection is closed")
+            if self.connection.is_connected():
+                self.connection.close()
+                print("mysql closed successfully")
+
+    def update(self,category):
+        try:
+            self.connection=ConnectionString.connectionStringEco()
+            query="UPDATE category SET Name='{0}',Description='{1}' where Id={2}"\
+                .format(category.getName(),category.getDescription(),category.getId())
+            cursor=self.connection.cursor()
+            cursor.execute(query)
+            self.connection.commit()
+            print(cursor.rowcount,"updated successfully")
+            cursor.close()
+        except mysql.connector.Error as mysqlError:
+            print(mysqlError)
+        except Exception as kk:
+            print(kk)
+        finally:
+            if self.connection.is_connected():
+                self.connection.close()
+                print("connection close")
+
+    def getById(self,id):
+        try:
+
+            self.connection=ConnectionString.connectionStringEco()
+            query="select * from category where id ='{0}'".format(id)
+            cursor=self.connection.cursor()
+            cursor.execute(query)
+            result=cursor.fetchone()
+
+            print(result)
+
+            cursor.close()
+        except mysql.connector.Error as MysqlError:
+            print(MysqlError.msg)
+        except Exception as something:
+            print(something)
+        finally:
+            if self.connection.is_connected:
+                self.connection.close()
+
+    def delete(self,Id):
+        try:
+            self.connection=ConnectionString.connectionStringEco()
+            query="DELETE FROM category where Id={0}".format(Id)
+            cursor=self.connection.cursor()
+            cursor.execute(query)
+            self.connection.commit()
+            print(cursor.rowcount,"deleted successfully")
+            cursor.close()
+        except mysql.connector.Error as mysqlError:
+            print(mysqlError.msg)
+        except Exception as ll:
+            print(ll)
+        finally:
+            if self.connection.is_connected():
+                self.connection.close()
+                print("connection closed")
+
+
+
