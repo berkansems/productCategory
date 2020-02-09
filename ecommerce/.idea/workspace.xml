@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23c74c43-524e-4a70-b9f3-a52c73daf72e" name="Default Changelist" comment="" />
+    <list default="true" id="23c74c43-524e-4a70-b9f3-a52c73daf72e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/source/test/dataTest/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eco.mwb" beforeDir="false" afterPath="$PROJECT_DIR$/../eco.mwb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ecommerce.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ecommerce.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/connectionString.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/connectionString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/dataProviderCategory.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/dataProviderCategory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/dataProviderCategorySP.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/dataProviderCategorySP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/data/dataProviderProduct.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/data/dataProviderProduct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/domain/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/domain/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/domain/category.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/domain/category.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/domain/product.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/domain/product.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/test/dataTest/dataProviderCategoryTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/test/dataTest/dataProviderCategoryTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/test/dataTest/dataProviderCategoryTestSP.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/test/dataTest/dataProviderCategoryTestSP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/test/dataTest/dataProviderProductsTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/test/dataTest/dataProviderProductsTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/test/dataTest/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/source/test/dataTest/test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,15 +36,20 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1W7XfRqCebM7AApL4DCAEziNU9n" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eco" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -31,7 +58,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.dataProviderProductsTest">
+  <component name="RunManager" selected="Python.dataProviderCategoryTest">
     <configuration name="dataProviderCategory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ecommerce" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,6 +72,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/data/dataProviderCategory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dataProviderCategorySP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/data/dataProviderCategorySP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,28 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dataProviderProduct" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ecommerce" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/data/dataProviderProduct.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dataProviderProductsTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dataProviderCategoryTestSP" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ecommerce" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +135,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/test/dataTest/dataProviderProductsTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/test/dataTest/dataProviderCategoryTestSP.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ecommerce" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/source/test/dataTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/source/test/dataTest/test2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -119,9 +167,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dataProviderProductsTest" />
-        <item itemvalue="Python.dataProviderProduct" />
         <item itemvalue="Python.dataProviderCategoryTest" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.dataProviderCategoryTestSP" />
+        <item itemvalue="Python.dataProviderCategorySP" />
         <item itemvalue="Python.dataProviderCategory" />
       </list>
     </recent_temporary>
@@ -156,29 +205,88 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1208" y="255" width="424" height="513" key="FileChooserDialogImpl" timestamp="1578819007647">
+    <state x="102" y="146" width="501" height="484" key="FileChooserDialogImpl" timestamp="1581181109271">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="1208" y="255" width="424" height="513" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1024.768@67.27.1853.1053" timestamp="1578819007647" />
-    <state width="910" height="278" key="GridCell.Tab.0.bottom" timestamp="1578819023934">
+    <state x="102" y="146" width="501" height="484" key="FileChooserDialogImpl/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1581181109271" />
+    <state x="1208" y="255" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1578939877548" />
+    <state x="126" y="146" width="424" height="484" key="FileChooserDialogImpl/67.27.3133.1053@67.27.3133.1053" timestamp="1579096727616" />
+    <state width="1830" height="178" key="GridCell.Tab.0.bottom" timestamp="1581251956143">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="910" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1024.768@67.27.1853.1053" timestamp="1578819023934" />
-    <state width="910" height="278" key="GridCell.Tab.0.center" timestamp="1578819023933">
+    <state width="1257" height="178" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1581229703353" />
+    <state width="1830" height="178" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1581251956143" />
+    <state width="1830" height="212" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1579110586759" />
+    <state width="1257" height="212" key="GridCell.Tab.0.bottom/67.27.3133.1053@67.27.3133.1053" timestamp="1579096522095" />
+    <state width="1830" height="178" key="GridCell.Tab.0.center" timestamp="1581251956143">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="910" height="278" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1024.768@67.27.1853.1053" timestamp="1578819023933" />
-    <state width="910" height="278" key="GridCell.Tab.0.left" timestamp="1578819023933">
+    <state width="1257" height="178" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1581229703353" />
+    <state width="1830" height="178" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1581251956143" />
+    <state width="1830" height="212" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1579110586758" />
+    <state width="1257" height="212" key="GridCell.Tab.0.center/67.27.3133.1053@67.27.3133.1053" timestamp="1579096522093" />
+    <state width="1830" height="178" key="GridCell.Tab.0.left" timestamp="1581251956142">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="910" height="278" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1024.768@67.27.1853.1053" timestamp="1578819023933" />
-    <state width="910" height="278" key="GridCell.Tab.0.right" timestamp="1578819023934">
+    <state width="1257" height="178" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1581229703353" />
+    <state width="1830" height="178" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1581251956142" />
+    <state width="1830" height="212" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1579110586758" />
+    <state width="1257" height="212" key="GridCell.Tab.0.left/67.27.3133.1053@67.27.3133.1053" timestamp="1579096522092" />
+    <state width="1830" height="178" key="GridCell.Tab.0.right" timestamp="1581251956143">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="910" height="278" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1024.768@67.27.1853.1053" timestamp="1578819023934" />
-    <state x="477" y="184" key="SettingsEditor" timestamp="1578742473174">
+    <state width="1257" height="178" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1581229703353" />
+    <state width="1830" height="178" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1581251956143" />
+    <state width="1830" height="212" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1579110586759" />
+    <state width="1257" height="212" key="GridCell.Tab.0.right/67.27.3133.1053@67.27.3133.1053" timestamp="1579096522094" />
+    <state width="1257" height="331" key="GridCell.Tab.1.bottom" timestamp="1579340048941">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="331" key="GridCell.Tab.1.bottom/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1579340048941" />
+    <state width="905" height="317" key="GridCell.Tab.1.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1578939616288" />
+    <state width="905" height="317" key="GridCell.Tab.1.bottom/67.27.3133.1053@67.27.3133.1053" timestamp="1579004420232" />
+    <state width="1257" height="331" key="GridCell.Tab.1.center" timestamp="1579340048941">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="331" key="GridCell.Tab.1.center/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1579340048941" />
+    <state width="905" height="317" key="GridCell.Tab.1.center/67.27.1853.1053@67.27.1853.1053" timestamp="1578939616288" />
+    <state width="905" height="317" key="GridCell.Tab.1.center/67.27.3133.1053@67.27.3133.1053" timestamp="1579004420231" />
+    <state width="1257" height="331" key="GridCell.Tab.1.left" timestamp="1579340048941">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="331" key="GridCell.Tab.1.left/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1579340048941" />
+    <state width="905" height="317" key="GridCell.Tab.1.left/67.27.1853.1053@67.27.1853.1053" timestamp="1578939616287" />
+    <state width="905" height="317" key="GridCell.Tab.1.left/67.27.3133.1053@67.27.3133.1053" timestamp="1579004420231" />
+    <state width="1257" height="331" key="GridCell.Tab.1.right" timestamp="1579340048941">
+      <screen x="1920" y="0" width="1280" height="1024" />
+    </state>
+    <state width="1257" height="331" key="GridCell.Tab.1.right/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1579340048941" />
+    <state width="905" height="317" key="GridCell.Tab.1.right/67.27.1853.1053@67.27.1853.1053" timestamp="1578939616288" />
+    <state width="905" height="317" key="GridCell.Tab.1.right/67.27.3133.1053@67.27.3133.1053" timestamp="1579004420232" />
+    <state x="477" y="184" key="SettingsEditor" timestamp="1581236864313">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="477" y="184" key="SettingsEditor/67.27.1853.1053/1920.0.1024.768@67.27.1853.1053" timestamp="1578742473174" />
+    <state x="2178" y="153" key="SettingsEditor/67.27.1853.1053/1920.0.1280.1024@1920.0.1280.1024" timestamp="1581184775890" />
+    <state x="477" y="184" key="SettingsEditor/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1581236864313" />
+    <state x="477" y="184" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1578939728330" />
+    <state x="760" y="184" key="SettingsEditor/67.27.3133.1053@67.27.3133.1053" timestamp="1579067527424" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1579007151229">
+      <screen x="67" y="27" width="3133" height="1053" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/67.27.3133.1053@67.27.3133.1053" timestamp="1579007151229" />
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1581176187580">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="649" y="380" key="com.intellij.ide.util.TipDialog/67.27.1853.1053/1920.0.1280.1024@67.27.1853.1053" timestamp="1581176187580" />
+    <state x="2224" y="133" width="662" height="755" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1579067769522">
+      <screen x="67" y="27" width="3133" height="1053" />
+    </state>
+    <state x="2224" y="133" width="662" height="755" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.3133.1053@67.27.3133.1053" timestamp="1579067769522" />
   </component>
 </project>

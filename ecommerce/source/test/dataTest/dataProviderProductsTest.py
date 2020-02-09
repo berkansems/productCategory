@@ -1,15 +1,16 @@
-from source.data.dataProviderProduct import DataProviderProduct
+from source.data.dataProviderProduct import DataProviderProducts
 from source.domain.product import Product
 
-dataProviderProduct = DataProviderProduct()
+dataProviderProduct = DataProviderProducts()
 
 product=Product()
-
-product.setId(2)
-product.setName("ali")
-product.setDescription("ec")
-product.setPrice(3000)
-product.setCategoryId("2")
+product.setId(14)
+product.setName("MSI")
+product.setDescription("Core i7 8.generation")
+product.setPrice(6050)
+product.setCategory_Id("4")
 
 #dataProviderProduct.insert(product)
-dataProviderProduct.getList()
+#dataProviderProduct.Update(product)
+#dataProviderProduct.getList()
+#dataProviderProduct.getByCotegoryId(1)

@@ -4,9 +4,12 @@ from source.domain.category import Category
 dataProviderCategory = DataProviderCategory()
 
 category = Category()
-category.setId("3")
-category.setName("bilgisayar")
-category.setDescription("computer Description")
+category.setName("car")
+category.setDescription("sedan")
 
-#dataProviderCategory.insert(category)
-dataProviderCategory.getList()
+dataProviderCategory.insert(category)
+#dataProviderCategory.update(category)
+
+print("***********")
+#dataProviderCategory.getList()
+#dataProviderCategory.update(category)
