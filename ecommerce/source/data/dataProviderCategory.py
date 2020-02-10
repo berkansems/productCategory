@@ -28,6 +28,10 @@ class DataProviderCategory:
                 connection.close()
                 print("Mysql connection is closed")
 
+
+
+                kmkjpkp;
+
     def getList(self):
         try:
             connection = mysql.connector.connect(
